@@ -2,37 +2,37 @@
 const projectData = {
     'project-1': {
         title: 'project1',
-        image: '../project/src/Images/project1.png',
+        image: '/Images/project1.png',
         description: 'Testing thing.',
         details: 'Extra info'
     },
     'project-2': {
         title: 'project2',
-        image: '../project/src/Images/project2.png',
+        image: '/Images/project2.png',
         description: 'Desc',
         details: 'Extra info'
     },
     'project-3': {
         title: 'project3',
-        image: '../project/src/Images/project3.png',
+        image: '/Images/project3.png',
         description: 'Desc',
         details: 'Extra info'
     },
     'project-4': {
         title: 'project4',
-        image: '../project/src/Images/project4.png',
+        image: '/Images/project4.png',
         description: 'Desc',
         details:'Extra info'
     },
     'project-5': {
         title: 'project5',
-        image: '../project/src/Images/project5.png',
+        image: '/Images/project5.png',
         description: 'Desc.',
         details: 'Extra info'
     },
     'project-6': {
         title: 'project6',
-        image: '../project/src/Images/project6.png',
+        image: '/Images/project6.png',
         description: 'Desc.',
         details: 'Extra info'
     }
