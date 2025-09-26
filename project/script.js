@@ -11,8 +11,7 @@ const projectData = {
         title: 'History of Interior Design II',
         images: ['Images/project2.png', 'Images/project2a.png'],
         image: '/Images/project2.png',
-        description: ' We are to draw 5 relevant buildings that need to be proportionally correct. Drawings should be during the time period that we study in class. On each sheet there is one significant plan, one significant section, two elevations or a perspective, and at least one detail or furnishing that is relevant to the building or time period. Drawings can have a sketch nature or are cleanly and precisely drafted.',
-        details: 'Extra info'
+        description: ' We are to draw 5 relevant buildings that need to be proportionally correct. Drawings should be during the time period that we study in class. On each sheet there is one significant plan, one significant section, two elevations or a perspective, and at least one detail or furnishing that is relevant to the building or time period. Drawings can have a sketch nature or are cleanly and precisely drafted.'
     },
     'project-3': {
         title: 'Novotny Cabin | Gate House',
@@ -27,11 +26,10 @@ const projectData = {
         description: 'Through this project students are asked to create a composition inspired by the principles and elements of design that we identify in our context. We will photograph elements or scenes that relate to our major and identify elements we learn in class. Students are encouraged to incorporate line, space, shape, balance, contrast, emphasis, movement, proportion, and other principles of design. '
     },
     'project-5': {
-        title: 'project5',
+        title: 'Studio II',
         images: ['Images/project5.png', 'Images/project5a.png', 'Images/project5b.png',  'Images/project5c.png'],
         image: '/Images/project5.png',
-        description: 'Desc.',
-        details: 'Extra info'
+        description: ' In this project students are asked to create dorm buildings for the App State Campus that uses inspiration from surrounding elements. We are to create an indesign poster showing the intent of spaces and the intent of zoning. There must be enough rooms to accommodate a large number of students. Different amenities are to be included such as a gym, study area, lounge, laundry unit, mail room, and any others that we felt were necessary to add. '
     }
 };
 
