@@ -5,31 +5,31 @@ const projectData = {
     // New: optional array. If missing, code will fall back to `image`
     images: ['Images/project1.png', 'Images/project1a.png'],
     image: 'Images/project1.png',
-    description: 'This project explores the construction of three-dimensional geometric forms and how they interrelate in space. We will use positive and negative space to create a sense of path and mystery in our designs. We are to address three-dimensional geometric forms, hierarchy of elements, void, pierce, wedge, cradle, positive and negative space, viewpoints, and proportion. '
+    description: 'In this project I explored how three-dimensional geometric forms interact in space. I worked with positive and negative space to create a sense of path and mystery, paying attention to hierarchy, proportion, and viewpoints. By experimenting with voids, pierces, wedges, and cradles, I was able to shape a composition that felt both balanced and dynamic'
     },
     'project-2': {
         title: 'History of Interior Design II',
         images: ['Images/project2.png', 'Images/project2a.png'],
         image: '/Images/project2.png',
-        description: ' We are to draw 5 relevant buildings that need to be proportionally correct. Drawings should be during the time period that we study in class. On each sheet there is one significant plan, one significant section, two elevations or a perspective, and at least one detail or furnishing that is relevant to the building or time period. Drawings can have a sketch nature or are cleanly and precisely drafted.'
+        description: 'For this assignment I drew five historically significant buildings, making sure each one was proportionally correct and true to its time period. Each sheet included a plan, a section, perspectives or elevations, and details or furnishings that highlighted the architecture’s character. I enjoyed balancing precision with sketch qualities to capture both accuracy and expression.'
     },
     'project-3': {
         title: 'Novotny Cabin | Gate House',
         images: ['Images/project3.png', 'Images/project3a.png', 'Images/project3b.png',  'Images/project3c.png',  'Images/project3d.png',  'Images/project3e.png'],
         image: '/Images/project3.png',
-        description: 'Students will choose a well known house to study and replicate into revit. We are to focus on elements that architects purposely incorporated into the builds and expand on what makes these houses unique and special to its surroundings.  \n\nUsing the same house from the first project, students will construct a gate house that allows visitors to experience the house from a framed view. Elements that were incorporated into the house should also be used on the gatehouse. '
+        description: 'I studied the Novotny Cabin, recreating it in Revit to better understand the architectural choices that made it unique in its setting. Then I designed a gatehouse that framed the original house, using similar stylistic elements so the two spoke the same design language. This process gave me a new appreciation for how architects create continuity between buildings while also shaping visitor experience.'
     },
     'project-4': {
         title: 'Visual Literacy 1',
         images: ['Images/project4.png', 'Images/project4a.png', 'Images/project4b.png',  'Images/project4c.png',  'Images/project4d.png'],
         image: '/Images/project4.png',
-        description: 'Through this project students are asked to create a composition inspired by the principles and elements of design that we identify in our context. We will photograph elements or scenes that relate to our major and identify elements we learn in class. Students are encouraged to incorporate line, space, shape, balance, contrast, emphasis, movement, proportion, and other principles of design. '
+        description: 'Here I created a composition inspired by the design principles and elements I observed in my surroundings. I photographed scenes that resonated with my major, then used line, space, shape, balance, and contrast to turn those observations into a thoughtful design. It was a chance to see everyday environments through the lens of proportion, emphasis, and movement.'
     },
     'project-5': {
         title: 'Studio II',
         images: ['Images/project5.png', 'Images/project5a.png', 'Images/project5b.png',  'Images/project5c.png'],
         image: '/Images/project5.png',
-        description: ' In this project students are asked to create dorm buildings for the App State Campus that uses inspiration from surrounding elements. We are to create an indesign poster showing the intent of spaces and the intent of zoning. There must be enough rooms to accommodate a large number of students. Different amenities are to be included such as a gym, study area, lounge, laundry unit, mail room, and any others that we felt were necessary to add. '
+        description: 'For this studio my partner and I designed dorm buildings for the App State campus, drawing inspiration from the surrounding context. Together we created an InDesign poster to communicate the zoning and spatial intent, ensuring the design could accommodate a large number of students. We included amenities like a gym, lounge, study area, laundry, and mail room, focusing on how these shared spaces could strengthen community life.'
     }
 };
 
@@ -40,7 +40,6 @@ const projectItems = document.querySelectorAll('.project-item');
 
 const modalTitle = document.querySelector('.modal-title');
 const modalDescription = document.querySelector('.modal-description');
-const modalDetails = document.querySelector('.modal-details');
 
 const galleryViewport = document.querySelector('.gallery-viewport');
 const galleryTrack = document.querySelector('.gallery-track');
@@ -59,7 +58,8 @@ function openModalFor(projectKey) {
   // Title/Text
   modalTitle.textContent = project.title;
   modalDescription.textContent = project.description;
-  modalDetails.innerHTML = project.details;
+  modalDescription.innerHTML = project.description.replace(/\n/g, '<br>');
+
 
   // Images (fallback to single `image` if `images` missing)
   currentImages = Array.isArray(project.images) && project.images.length > 0
