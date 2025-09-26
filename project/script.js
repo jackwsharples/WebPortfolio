@@ -1,46 +1,35 @@
 // Project data
 const projectData = {
     'project-1': {
-    title: 'project1',
+    title: 'Visual Literacy 2',
     // New: optional array. If missing, code will fall back to `image`
     images: ['Images/project1.png', 'Images/project1a.png'],
     image: 'Images/project1.png',
-    description: 'Testing thing.',
-    details: 'Extra info'
+    description: 'This project explores the construction of three-dimensional geometric forms and how they interrelate in space. We will use positive and negative space to create a sense of path and mystery in our designs. We are to address three-dimensional geometric forms, hierarchy of elements, void, pierce, wedge, cradle, positive and negative space, viewpoints, and proportion. '
     },
     'project-2': {
-        title: 'project2',
+        title: 'History of Interior Design II',
         images: ['Images/project2.png', 'Images/project2a.png'],
         image: '/Images/project2.png',
-        description: 'Desc',
+        description: ' We are to draw 5 relevant buildings that need to be proportionally correct. Drawings should be during the time period that we study in class. On each sheet there is one significant plan, one significant section, two elevations or a perspective, and at least one detail or furnishing that is relevant to the building or time period. Drawings can have a sketch nature or are cleanly and precisely drafted.',
         details: 'Extra info'
     },
     'project-3': {
-        title: 'project3',
-        images: ['Images/project3.png', 'Images/project3a.png', 'Images/project3b.png',  'Images/project3c.png',  'Images/project3d.png'],
+        title: 'Novotny Cabin | Gate House',
+        images: ['Images/project3.png', 'Images/project3a.png', 'Images/project3b.png',  'Images/project3c.png',  'Images/project3d.png',  'Images/project3e.png'],
         image: '/Images/project3.png',
-        description: 'Desc',
-        details: 'Extra info'
+        description: 'Students will choose a well known house to study and replicate into revit. We are to focus on elements that architects purposely incorporated into the builds and expand on what makes these houses unique and special to its surroundings.  \n\nUsing the same house from the first project, students will construct a gate house that allows visitors to experience the house from a framed view. Elements that were incorporated into the house should also be used on the gatehouse. '
     },
     'project-4': {
-        title: 'project4',
-        images: ['Images/project4.png', 'Images/project4a.png', 'Images/project4b.png',  'Images/project4c.png',  'Images/project4d.png',  'Images/project4e.png'],
-        images: ['Images/project4.png', 'Images/project4a.png', 'Images/project4b.png'],
+        title: 'Visual Literacy 1',
+        images: ['Images/project4.png', 'Images/project4a.png', 'Images/project4b.png',  'Images/project4c.png',  'Images/project4d.png'],
         image: '/Images/project4.png',
-        description: 'Desc',
-        details:'Extra info'
+        description: 'Through this project students are asked to create a composition inspired by the principles and elements of design that we identify in our context. We will photograph elements or scenes that relate to our major and identify elements we learn in class. Students are encouraged to incorporate line, space, shape, balance, contrast, emphasis, movement, proportion, and other principles of design. '
     },
     'project-5': {
         title: 'project5',
         images: ['Images/project5.png', 'Images/project5a.png', 'Images/project5b.png',  'Images/project5c.png'],
         image: '/Images/project5.png',
-        description: 'Desc.',
-        details: 'Extra info'
-    },
-    'project-6': {
-        title: 'project6',
-        images: ['Images/project6.png', 'Images/project6a.png', 'Images/project6b.png'],
-        image: '/Images/project6.png',
         description: 'Desc.',
         details: 'Extra info'
     }
