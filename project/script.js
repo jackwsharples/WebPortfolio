@@ -9,7 +9,7 @@ const projectData = {
     },
     'project-2': {
         title: 'History of Interior Design II',
-        images: ['Images/project2.png', 'Images/project2a.png'],
+        images: ['Images/project2.png', 'Images/project2a.png', 'Images/project2b.png', 'Images/project2c.png'],
         image: '/Images/project2.png',
         description: 'For this assignment I drew five historically significant buildings, making sure each one was proportionally correct and true to its time period. Each sheet included a plan, a section, perspectives or elevations, and details or furnishings that highlighted the architecture’s character. I enjoyed balancing precision with sketch qualities to capture both accuracy and expression.'
     },
